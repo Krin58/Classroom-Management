@@ -7,7 +7,7 @@ import sys
 
 # Establishing Connection Between Python And MySQL
 try:
-    con=a.connect(host="localhost", user="root", passwd="zxcIE0-=",database='class_database')
+    con=a.connect(host="localhost", user="root", passwd="Your_Password",database='Your_Database')
 except:
     print("Connection Error !!!")
     sys.exit(0)
